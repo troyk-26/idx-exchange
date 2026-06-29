@@ -47,7 +47,7 @@ The analysis was performed using 12 months of CRMLS sold property data from June
 - Python
 - pandas
 - matplotlib
-- Jupyter Lab
+- Jupyter Lab/Jupyter Notebook
 
 ## Running the Project
 
