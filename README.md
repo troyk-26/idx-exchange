@@ -13,7 +13,7 @@ This repository contains work completed during the internship involving analysis
 ├── docs/
 │   └── week1_notes.md
 ├── notebooks/
-|   └── notebook01_exploration.ipynb
+|   └── 01_exploration.ipynb
 ├── .gitignore
 └── README.md
 ```
