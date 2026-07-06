@@ -12,8 +12,10 @@ This repository contains work completed during the internship involving analysis
 .
 ├── docs/
 │   └── week1_notes.md
+│   └── week3_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
+|   └── 02_preprocessing.ipynb
 ├── .gitignore
 └── README.md
 ```
