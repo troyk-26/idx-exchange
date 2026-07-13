@@ -68,10 +68,12 @@ The analysis was performed using 12 months of CRMLS sold property data from June
 - Python
 - pandas
 - matplotlib
+- Seaborn
+- Scikit-learn
 - Jupyter Lab/Jupyter Notebook
 
 ## Running the Project
 
 1. Download the required CRMLS dataset (not included in this repository)
-2. Update the file path in `notebooks/01_exploration.ipynb` if necessary
-3. Run the notebook to reproduce the exploratory data analysis
+2. Update the file path in notebooks if necessary
+3. Run the notebooks to reproduce the exploratory data analysis
