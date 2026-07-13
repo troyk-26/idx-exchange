@@ -13,9 +13,11 @@ This repository contains work completed during the internship involving analysis
 ├── docs/
 │   └── week1_notes.md
 │   └── week3_notes.md
+│   └── week4_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
 |   └── 02_preprocessing.ipynb
+|   └── 03_baseline_model.ipynb
 ├── .gitignore
 └── README.md
 ```
@@ -43,6 +45,23 @@ The analysis was performed using 12 months of CRMLS sold property data from June
   - BedroomsTotal
   - BathroomsTotalInteger
   - LotSizeArea
+
+## Week 3
+ 
+- Defined preprocessing function
+  - Handled missing values (dropped columns or filled missing values)
+  - Encoded categorical variables (multi-label/one-hot/frequency)
+- Defined train-test split function
+  - Most recent month is test dataset
+  - Adjustable parameter specifying number of months immediately preceding most recent month to use for training dataset
+
+## Week 4
+
+- Loaded dataset, preprocessing, and train-test split functions
+- Trained linear regression models
+  - Experimented with varying numbers of months for train dataset
+- Used five metrics to evaluate linear regression models
+  - R<sup>2</sup>, MAE, RMSE, Median Absolute Error, MdAPE
 
 ## Software
 
