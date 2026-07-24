@@ -20,6 +20,7 @@ This repository contains work completed during the internship involving analysis
 |   └── 02_preprocessing.ipynb
 |   └── 03_baseline_model.ipynb
 |   └── 04_model_comparison.ipynb
+|   └── 04_model_comparison_updated.ipynb
 ├── .gitignore
 └── README.md
 ```
