@@ -29,7 +29,7 @@ This repository contains work completed during the internship involving analysis
 
 ## Dataset
 
-The analysis was performed using 12 months of CRMLS sold property data from June 2025 to May 2026. The notebook assumes the dataset has already been downloaded and is available locally.
+The analysis is performed using 31 months of CRMLS sold property data from 30 datasets. The most recent month is used as the test dataset and the 30 months immediately preceding contain the training data for the predictive models. The notebooks assume the dataset has already been downloaded and is available locally.
 
 ## Week 1
 
@@ -85,4 +85,4 @@ The analysis was performed using 12 months of CRMLS sold property data from June
 
 1. Download the required CRMLS dataset (not included in this repository)
 2. Update the file path in notebooks if necessary
-3. Run the notebooks to reproduce the exploratory data analysis
+3. Run the notebooks to reproduce the exploratory data analysis, preprocessing, data wrangling, and model creation.
