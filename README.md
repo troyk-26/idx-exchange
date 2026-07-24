@@ -12,6 +12,7 @@ This repository contains work completed during the internship involving analysis
 .
 ├── docs/
 │   └── week1_notes.md
+│   └── week2_notes.md
 │   └── week3_notes.md
 │   └── week4_notes.md
 │   └── week5_notes.md
