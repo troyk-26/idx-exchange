@@ -16,6 +16,7 @@ This repository contains work completed during the internship involving analysis
 │   └── week3_notes.md
 │   └── week4_notes.md
 │   └── week5_notes.md
+│   └── week6_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
 |   └── 02_preprocessing.ipynb
@@ -72,6 +73,16 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
 - Trained decision tree and random forest models
 - Compared tree model performance to baseline linear regression performance
 
+## Week 6
+
+- Improved preprocessing
+  - Handled impossible/unreasonable values
+  - Filtered outliers (removed 0.5th and 99.5th percentiles)
+- Added engineered features to improve dataset
+  - UnifiedSchoolDistrict: assigned properties a California school district based on geographic coordinates
+  - PropertyAge: Replaced YearBuilt with feature more easily interpreted by model
+  - BedBathRatio: BedroomsTotal / BathroomsTotalInteger
+
 ## Software
 
 - Python
@@ -79,6 +90,7 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
 - matplotlib
 - Seaborn
 - Scikit-learn
+- GeoPandas
 - Jupyter Lab/Jupyter Notebook
 
 ## Running the Project
