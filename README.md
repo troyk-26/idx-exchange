@@ -17,12 +17,14 @@ This repository contains work completed during the internship involving analysis
 │   └── week4_notes.md
 │   └── week5_notes.md
 │   └── week6_notes.md
+│   └── week7_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
 |   └── 02_preprocessing.ipynb
 |   └── 03_baseline_model.ipynb
 |   └── 04_model_comparison.ipynb
 |   └── 04_model_comparison_updated.ipynb
+|   └── 05_advanced_models.ipynb
 ├── .gitignore
 └── README.md
 ```
@@ -82,6 +84,16 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
   - UnifiedSchoolDistrict: assigned properties a California school district based on geographic coordinates
   - PropertyAge: Replaced YearBuilt with feature more easily interpreted by model
   - BedBathRatio: BedroomsTotal / BathroomsTotalInteger
+ 
+## Week 7
+
+- Updated preprocessing
+  - Drop non-California entries
+  - Add feature engineering from Week 6 to preprocessing function
+- Experiment with gradient boosting models (tree-based models where each new tree improves upon errors from previous trees)
+  - XGBoost: expands evenly level by level
+  - LightGBM: only expands branches that most reduce error
+- Performed hyperparameter tuning to build best predictive gradient boosting model
 
 ## Software
 
@@ -91,10 +103,12 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
 - Seaborn
 - Scikit-learn
 - GeoPandas
+- XGBoost
+- LightGBM
 - Jupyter Lab/Jupyter Notebook
 
 ## Running the Project
 
 1. Download the required CRMLS dataset (not included in this repository)
 2. Update the file path in notebooks if necessary
-3. Run the notebooks to reproduce the exploratory data analysis, preprocessing, data wrangling, and model creation.
+3. Run the notebooks to reproduce the exploratory data analysis, preprocessing, data wrangling, and model creation
