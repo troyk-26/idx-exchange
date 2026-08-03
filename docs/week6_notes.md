@@ -1,5 +1,7 @@
 **Week 6**
 
+*Notebook: 04_model_comparison_updated.ipynb*
+
 Update/Improve Preprocessing
 
 * Remove impossible values (convert to null)  
