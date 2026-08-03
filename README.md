@@ -90,10 +90,10 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
 - Updated preprocessing
   - Drop non-California entries
   - Add feature engineering from Week 6 to preprocessing function
-- Experiment with gradient boosting models (tree-based models where each new tree improves upon errors from previous trees)
+- Experimented with gradient boosting models
   - XGBoost: expands evenly level by level
   - LightGBM: only expands branches that most reduce error
-- Performed hyperparameter tuning to build best predictive gradient boosting model
+- Performed hyperparameter tuning on gradient boosting models
 
 ## Software
 
