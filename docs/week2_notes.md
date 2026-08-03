@@ -1,4 +1,5 @@
 **Week 2**
+*notebook: 01_exploration.ipynb*
 
 Load Data
 
