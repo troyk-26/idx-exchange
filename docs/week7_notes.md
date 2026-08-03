@@ -1,5 +1,7 @@
 **Week 7**
 
+*Notebook: 05_advanced_models.ipynb*
+
 Update Preprocessing
 
 * Drop properties not in CA (23 entries)  
