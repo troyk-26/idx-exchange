@@ -1,5 +1,7 @@
 **Week 3**
 
+*Notebook: 02_preprocessing.ipynb*
+
 Dataset
 
 * Loaded all 30 datasets  
