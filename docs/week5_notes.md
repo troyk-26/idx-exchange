@@ -1,5 +1,7 @@
 **Week 5**
 
+*Notebook: 04_model_comparison.ipynb*
+
 Data Wrangling & Preprocessing
 
 * Imported load\_dataset(), preprocessing(), and train\_test\_split() functions defined in Week 2/Week 3
