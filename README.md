@@ -18,6 +18,7 @@ This repository contains work completed during the internship involving analysis
 │   └── week5_notes.md
 │   └── week6_notes.md
 │   └── week7_notes.md
+│   └── week8_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
 |   └── 02_preprocessing.ipynb
@@ -25,6 +26,7 @@ This repository contains work completed during the internship involving analysis
 |   └── 04_model_comparison.ipynb
 |   └── 04_model_comparison_updated.ipynb
 |   └── 05_advanced_models.ipynb
+|   └── 06_evaluation.ipynb
 ├── .gitignore
 └── README.md
 ```
@@ -94,6 +96,12 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
   - XGBoost: expands evenly level by level
   - LightGBM: only expands branches that most reduce error
 - Performed hyperparameter tuning on gradient boosting models
+
+## Week 8
+
+- Added MAPE as evaluation metric
+- Summarized results from all models
+- Analyzed model performance for different price bands
 
 ## Software
 
