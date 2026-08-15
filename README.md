@@ -27,6 +27,8 @@ This repository contains work completed during the internship involving analysis
 |   └── 04_model_comparison_updated.ipynb
 |   └── 05_advanced_models.ipynb
 |   └── 06_evaluation.ipynb
+├── results/
+│   └── metrics_summary.csv
 ├── .gitignore
 └── README.md
 ```
