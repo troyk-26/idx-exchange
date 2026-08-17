@@ -15,6 +15,6 @@ Test Joblib/Streamlit
 
 Streamlit App
 
-* Create [app.py](http://app.py) file  
+* Create app.py file  
 * Import simple LightGBM model  
 * Run streamlit app from terminal
