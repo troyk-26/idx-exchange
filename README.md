@@ -19,6 +19,7 @@ This repository contains work completed during the internship involving analysis
 │   └── week6_notes.md
 │   └── week7_notes.md
 │   └── week8_notes.md
+│   └── week9_notes.md
 ├── notebooks/
 |   └── 01_exploration.ipynb
 |   └── 02_preprocessing.ipynb
@@ -27,7 +28,11 @@ This repository contains work completed during the internship involving analysis
 |   └── 04_model_comparison_updated.ipynb
 |   └── 05_advanced_models.ipynb
 |   └── 06_evaluation.ipynb
-├── results/
+|   └── 07_app.ipynb
+├── resources/
+│   └── IDX_streamlit_app
+│      └── app.py
+│      └── lgbm_model.pkl
 │   └── metrics_summary.csv
 ├── .gitignore
 └── README.md
@@ -104,6 +109,11 @@ The analysis is performed using 31 months of CRMLS sold property data from 30 da
 - Added MAPE as evaluation metric
 - Summarized results from all models
 - Analyzed model performance for different price bands
+
+## Week 9
+
+- Load trained LightGBM model with Joblib
+- Build streamlit app based on model
 
 ## Software
 
